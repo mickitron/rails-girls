@@ -32,17 +32,30 @@ th {
   border-bottom: 1px solid #DDD; 
 }
 
+a {
+  color: #1AD0D1;
+}
+
 .navbar-default {
   background-color: black;
   background-image: none;
+  border-color: #1AD0D1;
 }
 
 .navbar-default .navbar-brand {
   color: white;
 }
 
+.navbar-default .navbar-nav > li > a {
+  color: #1AD0D1;
+}
+
 .navbar-default .navbar-nav > .active a {
    color: white;
-   background-color:#333;
+   background-color: #1AD0D1;
    background-image: none;
+}
+
+.row {
+  padding: 20px 0;
 }
